@@ -1,4 +1,5 @@
 import { useState } from "react";
+import emailjs from 'emailjs-com'
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -19,19 +20,32 @@ const ContactForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission - would be connected to a backend API
-    console.log('Form data:', formData);
-    alert('Pesan Anda telah terkirim! Tim kami akan segera menghubungi Anda.');
-    
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      company: '',
-      message: '',
-      interest: 'rental'
-    });
+  
+    // Send email via EmailJS
+    emailjs
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        formData,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+      )
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        alert("Pesan Anda telah terkirim! Tim kami akan segera menghubungi Anda.");
+        // Reset form
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          company: "",
+          message: "",
+          interest: "rental",
+        });
+      })
+      .catch((err) => {
+        console.error("FAILED...", err);
+        alert("Terjadi kesalahan saat mengirim pesan. Silakan coba lagi.");
+      });
   };
 
   return (
@@ -175,7 +189,7 @@ const ContactForm = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-semibold text-gray-800">Kantor Pusat</h4>
-                    <p className="text-gray-600">Jl. Industri Raya No. 123, Kawasan Industri Pulogadung, Jakarta Timur 13920, Indonesia</p>
+                    <p className="text-gray-600">Wisma Tropodo, Jln Lawu CE No 2, Waru, Sidoarjo</p>
                   </div>
                 </div>
                 
@@ -187,8 +201,8 @@ const ContactForm = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-semibold text-gray-800">Telepon</h4>
-                    <p className="text-gray-600">+62 21 4600 888</p>
-                    <p className="text-gray-600">+62 812 3456 7890 (WhatsApp)</p>
+                    <p className="text-gray-600">+62 851 5666 8815 (Whatsapp)</p>
+                    <p className="text-gray-600">+62 895 3510 11860 (WhatsApp)</p>
                   </div>
                 </div>
                 
@@ -200,8 +214,7 @@ const ContactForm = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-semibold text-gray-800">Email</h4>
-                    <p className="text-gray-600">info@heavylift.co.id</p>
-                    <p className="text-gray-600">sales@heavylift.co.id</p>
+                    <p className="text-gray-600">cvbapakanakjayaabadi@gmail.com</p>
                   </div>
                 </div>
                 
@@ -213,8 +226,8 @@ const ContactForm = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-semibold text-gray-800">Jam Operasional</h4>
-                    <p className="text-gray-600">Senin - Jumat: 08.00 - 17.00 WIB</p>
-                    <p className="text-gray-600">Sabtu: 08.00 - 14.00 WIB</p>
+                    <p className="text-gray-600">Office: 08.00 - 17.00 WIB</p>
+                    <p className="text-gray-600">Rental: 24 Jam</p>
                   </div>
                 </div>
               </div>
@@ -222,9 +235,8 @@ const ContactForm = () => {
             
             <div className="rounded-lg overflow-hidden shadow-lg h-64">
               {/* Here we would normally include a Google Map, but as a placeholder we're using an image */}
-              <div className="bg-gray-300 h-full w-full flex items-center justify-center">
-                <p className="text-gray-600 font-medium">Google Maps Embed Goes Here</p>
-              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d831.8568689452252!2d112.758881225888!3d-7.353846238133668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1741155201542!5m2!1sen!2sid" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+
             </div>
           </div>
         </div>
