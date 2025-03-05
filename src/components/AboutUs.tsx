@@ -15,7 +15,7 @@ const AboutUs = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Tentang Kami</h2>
             <div className="w-20 h-1 bg-blue-600 mb-6"></div>
             <p className="text-gray-600 mb-6">
-              Sejak 2010, HeavyLift telah menjadi pionir dalam industri penyewaan dan penjualan alat berat di Indonesia. Dengan pengalaman lebih dari 15 tahun, kami telah melayani ribuan pelanggan dari berbagai sektor industri.
+              Sejak 2018, CV. BAPAK ANAK JAYA ABADI telah menjadi pionir dalam industri penyewaan dan penjualan alat berat di Indonesia. Dengan pengalaman lebih dari 15 tahun, kami telah melayani ribuan pelanggan dari berbagai sektor industri.
             </p>
             <p className="text-gray-600 mb-6">
               Kami memiliki armada yang lengkap dan terawat baik, termasuk forklift, reachtruck, crane, excavator, vibro, wheelloader, dan dozer. Semua unit kami dipelihara secara berkala oleh teknisi berpengalaman untuk memastikan keandalan dan keamanan.

@@ -52,11 +52,6 @@ const Testimonials = () => {
               </div>
               <p className="text-gray-600 mb-6 italic">"{testimonial.content}"</p>
               <div className="flex items-center">
-                <img 
-                  src={testimonial.image} 
-                  alt={testimonial.name} 
-                  className="w-12 h-12 rounded-full object-cover mr-4"
-                />
                 <div>
                   <h4 className="font-bold text-gray-800">{testimonial.name}</h4>
                   <p className="text-gray-600 text-sm">{testimonial.company}</p>
