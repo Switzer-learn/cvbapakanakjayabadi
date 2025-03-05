@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-6">
-              <img src="/logo.jpg" alt="CV BAPAK ANAK JAYA ABADI Logo" className="h-10 text-white" />
-              <span className="ml-2 font-bold text-xl text-white">CV. BAPAK ANAK JAYA ABADI</span>
+              <img src="/logo.jpg" alt="CV BAPAK ANAK JAYA ABADI Logo" className="h-10 text-white rounded-full" />
+              <span className="ml-2 font-bold font-inter text-xl text-white">CV. BAPAK ANAK JAYA ABADI</span>
             </div>
             <p className="text-gray-400 mb-6">
               Penyedia solusi alat berat terkemuka di Indonesia untuk kebutuhan konstruksi dan industri Anda.
@@ -105,6 +105,20 @@ const Footer = () => {
                   Office Bali <br />
                   Jln Pulau Batanta Perum Sebelanga Indah no 22<br />
                   Denpasar, Bali<br />
+                  Indonesia
+                </p>
+              </div>
+            </div>
+            <div className="space-y-4">
+              <div className="flex items-start">
+                <svg className="h-6 w-6 text-gray-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                <p className="text-gray-400">
+                  Workshop <br />
+                  Raya Jember km 7, Kedayuanan<br />
+                  Kabat, Banyuwangi<br />
                   Indonesia
                 </p>
               </div>

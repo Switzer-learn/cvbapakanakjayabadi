@@ -23,10 +23,16 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <img src="/logo.jpg" alt="PT Alat Berat Indonesia Logo" className="h-12" />
-            <span className={`ml-2 font-bold text-2xl ${scrolled ? 'text-blue-600' : 'text-white'} cursor-default select-none`}>
-              CV. BAPAK ANAK JAYA ABADI
-            </span>
+            <img src="/logo.png" alt="PT Alat Berat Indonesia Logo" className="h-12" />
+            <div className='flex flex-col font-inter'>
+              <span className={`ml-2 font-bold md:text-2xl ${scrolled ? 'text-blue-600' : 'text-white'} cursor-default select-none`}>
+                CV. BAPAK ANAK JAYA ABADI
+              </span>
+              <span className={`ml-2 font-bold text-sm md:text-lg ${scrolled ? 'text-blue-600' : 'text-white'} cursor-default select-none`}>
+                "Mitra Andal untuk Solusi Alat Berat Anda"
+              </span>
+            </div>
+
           </div>
 
           {/* Desktop Menu */}

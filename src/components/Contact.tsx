@@ -235,7 +235,7 @@ const ContactForm = () => {
             
             <div className="rounded-lg overflow-hidden shadow-lg h-64">
               {/* Here we would normally include a Google Map, but as a placeholder we're using an image */}
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d831.8568689452252!2d112.758881225888!3d-7.353846238133668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1741155201542!5m2!1sen!2sid" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d494.62483940329844!2d112.75914054461946!3d-7.3540384948389805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1741178842935!5m2!1sen!2sid" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
           </div>

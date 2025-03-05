@@ -10,7 +10,7 @@ import CTASection from './components/CTASection';
 
 function App() {
   return (
-    <div className="font-sans">
+    <div className="font-montserrat">
       <Navbar />
       <main>
         <Hero />
