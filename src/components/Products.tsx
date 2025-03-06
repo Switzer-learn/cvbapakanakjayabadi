@@ -59,6 +59,14 @@ const ProductsList = [
     description: 'Bulldozer kuat untuk pekerjaan pendorongan tanah dan perataan permukaan.',
     specs: ['Tenaga dorong superior', 'Blade berukuran besar', 'Traksi optimal berbagai medan','Merk : Shantui'],
   },
+  {
+    id: 8,
+    name: "Towing",
+    image: 'towing.webp',
+    type: ['Sewa'],
+    description: 'Towing truck dengan sistem kontrol presisi tinggi, cocok untuk pemindahan alat berat dan mobil.',
+    specs: ["Pengiriman alat berat antar kota", "Pengiriman mobil antar kota"],
+  }
 ];
 
 const rentalProducts = ProductsList.filter(product => product.type.includes('Sewa'));
@@ -89,7 +97,7 @@ const Products = () => {
               }`}
               onClick={() => setActiveTab('penyewaan')}
             >
-              Penyewaan
+              Rental
             </button>
             <button
               className={`py-3 px-8 font-medium text-center transition ${
@@ -99,7 +107,7 @@ const Products = () => {
               }`}
               onClick={() => setActiveTab('penjualan')}
             >
-              Penjualan
+              Sales
             </button>
           </div>
 

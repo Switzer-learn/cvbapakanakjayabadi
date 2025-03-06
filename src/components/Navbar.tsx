@@ -28,7 +28,7 @@ const Navbar = () => {
               <span className={`ml-2 font-bold md:text-2xl ${scrolled ? 'text-blue-600' : 'text-white'} cursor-default select-none`}>
                 CV. BAPAK ANAK JAYA ABADI
               </span>
-              <span className={`ml-2 font-bold text-sm md:text-lg ${scrolled ? 'text-blue-600' : 'text-white'} cursor-default select-none`}>
+              <span className={`ml-2 text-sm md:text-lg ${scrolled ? 'text-blue-600' : 'text-white'} font-moon-dance italic cursor-default select-none`}>
                 "Mitra Andal untuk Solusi Alat Berat Anda"
               </span>
             </div>
