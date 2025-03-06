@@ -65,7 +65,7 @@ const ProductsList = [
     image: 'towing.webp',
     type: ['Sewa'],
     description: 'Towing truck dengan sistem kontrol presisi tinggi, cocok untuk pemindahan alat berat dan mobil.',
-    specs: ["Pengiriman alat berat antar kota", "Pengiriman mobil antar kota"],
+    specs: ["Pengiriman alat berat antar kota dan antar pulau", "Pengiriman mobil antar kota dan antar pulau"],
   }
 ];
 
