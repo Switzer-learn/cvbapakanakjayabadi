@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-6">
-              <img src="/logo.jpg" alt="CV BAPAK ANAK JAYA ABADI Logo" className="h-10 text-white rounded-full" />
+              <img src="/logo.jpg" alt="CV. BAPAK ANAK JAYA ABADI - Spesialis Alat Berat Terpercaya" className="h-10 text-white rounded-full" loading="lazy" />
               <span className="ml-2 font-bold font-inter text-xl text-white">CV. BAPAK ANAK JAYA ABADI</span>
             </div>
             <p className="text-gray-400 mb-6">
@@ -24,19 +24,19 @@ const Footer = () => {
                 <svg className="h-6 w-6 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                 </svg>
-                <p className="text-gray-400">+62 851 5666 8815</p>
+                <a href="tel:+6285156668815" className="text-gray-400 hover:text-white transition-colors">+62 851 5666 8815</a>
               </div>
               <div className="flex items-center">
                 <svg className="h-6 w-6 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                 </svg>
-                <p className="text-gray-400">+62 8953 5101 1860 </p>
+                <a href="tel:+62895351011860" className="text-gray-400 hover:text-white transition-colors">+62 8953 5101 1860</a>
               </div>
               <div className="flex items-center">
                 <svg className="h-6 w-6 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
-                <p className="text-gray-400">cvbapakanakjayaabadi@gmail.com</p>
+                <a href="mailto:cvbapakanakjayaabadi@gmail.com" className="text-gray-400 hover:text-white transition-colors">cvbapakanakjayaabadi@gmail.com</a>
               </div>
             </p>
             <div className="flex space-x-4">

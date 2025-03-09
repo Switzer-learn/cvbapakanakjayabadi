@@ -116,10 +116,11 @@ const Products = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {rentalProducts.map((product) => (
                   <div key={product.id} className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
-                    <img 
+                    <img
                       src={`../assets/images/products/${product.image}`}
-                      alt={product.name} 
+                      alt={`${product.name} - CV. BAPAK ANAK JAYA ABADI`}
                       className="w-full h-64 object-cover"
+                      loading="lazy"
                     />
                     <div className="p-6">
                       <h3 className="text-xl font-bold text-gray-800 mb-2">{product.name}</h3>
@@ -154,10 +155,11 @@ const Products = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {saleProducts.map((product) => (
                   <div key={product.id} className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
-                    <img 
+                    <img
                       src={`../assets/images/products/${product.image}`}
-                      alt={product.name} 
+                      alt={`${product.name} - CV. BAPAK ANAK JAYA ABADI`}
                       className="w-full h-64 object-cover"
+                      loading="lazy"
                     />
                     <div className="p-6">
                       <h3 className="text-xl font-bold text-gray-800 mb-2">{product.name}</h3>

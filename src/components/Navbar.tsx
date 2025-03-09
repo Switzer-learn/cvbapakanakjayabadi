@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <img src="/logo.png" alt="PT Alat Berat Indonesia Logo" className="h-12" />
+            <img src="/logo.png" alt="CV. BAPAK ANAK JAYA ABADI - Penyewaan dan Penjualan Alat Berat Terlengkap" className="h-12" loading="lazy" />
             <div className='flex flex-col font-inter'>
               <span className={`ml-2 font-bold md:text-2xl ${scrolled ? 'text-blue-600' : 'text-white'} cursor-default select-none`}>
                 CV. BAPAK ANAK JAYA ABADI

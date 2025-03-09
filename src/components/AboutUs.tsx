@@ -5,9 +5,9 @@ const AboutUs = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <img 
-              src="./assets/images/AboutUs.webp"
-              alt="Tim Profesional HeavyLift" 
+            <img
+              src="./assets/images/tim-profesional-alat-berat-cv-bapak-anak-jaya-abadi.webp"
+              alt="Tim Profesional CV. BAPAK ANAK JAYA ABADI - Spesialis Alat Berat"
               className="rounded-lg shadow-xl max-w-full h-96 md:h-screen object-cover"
             />
           </div>
