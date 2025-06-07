@@ -7,6 +7,10 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
 import CTASection from './components/CTASection';
+import ExportImportLanding from './components/ExportImport';
+
+
+
 
 function App() {
   return (
@@ -17,6 +21,7 @@ function App() {
         <AboutUs />
         <Products />
         <Services />
+        <ExportImportLanding />
         <Testimonials />
         <CTASection />
         <Contact />

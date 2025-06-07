@@ -92,6 +92,19 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
+            <div className="hidden md:flex space-x-8">
+              {/* ... existing links ... */}
+              <Link
+                to="export-import"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className={`hover:rounded hover:bg-white px-3 py-2 cursor-pointer font-medium ${scrolled ? 'text-gray-800' : 'text-white'} hover:text-blue-500 transition`}
+              >
+                Export/Import
+              </Link>
+            </div>
             <Link
               to="pelayanan"
               spy={true}
