@@ -15,10 +15,10 @@ const AboutUs = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Tentang Kami</h2>
             <div className="w-20 h-1 bg-blue-600 mb-6"></div>
             <p className="text-gray-600 mb-6">
-              Sejak 2018, CV. BAPAK ANAK JAYA ABADI telah menjadi pionir dalam industri penyewaan dan penjualan alat berat di Indonesia. Dengan pengalaman lebih dari 7 tahun, kami telah melayani ribuan pelanggan dari berbagai sektor industri.
+              Sejak 2018, CV. BAPAK ANAK JAYA ABADI telah menjadi pionir dalam industri penyewaan dan penjualan alat berat di Indonesia. Spesialis Alat Berat Terpercaya dengan pengalaman lebih dari 7 tahun, kami telah melayani ribuan pelanggan dari berbagai sektor industri.
             </p>
             <p className="text-gray-600 mb-6">
-              Kami memiliki armada yang lengkap dan terawat baik, termasuk forklift, reachtruck, crane, excavator, vibro, wheelloader, dan dozer. Semua unit kami dipelihara secara berkala oleh teknisi berpengalaman untuk memastikan keandalan dan keamanan.
+              Kami memiliki armada yang lengkap dan terawat baik, termasuk forklift, reachtruck, crane, excavator, vibro, wheelloader, dan dozer. Semua unit kami dipelihara secara berkala oleh teknisi berpengalaman untuk memastikan keandalan dan keamanan. Penyewaan alat berat dengan teknisi berpengalaman tersedia.
             </p>
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="flex items-start">
@@ -44,7 +44,7 @@ const AboutUs = () => {
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
                 <div>
-                <h3 className="font-bold text-gray-800">Harga Kompetitif</h3>
+                  <h3 className="font-bold text-gray-800">Harga Kompetitif</h3>
                   <p className="text-sm text-gray-600">Penawaran harga terbaik dan transparan</p>
                 </div>
               </div>
@@ -54,11 +54,11 @@ const AboutUs = () => {
                 </svg>
                 <div>
                   <h3 className="font-bold text-gray-800">Layanan 24/7</h3>
-                  <p className="text-sm text-gray-600">Dukungan teknis kapan pun Anda butuhkan</p>
+                  <p className="text-sm text-gray-600">Dukungan teknis alat berat 24 jam. Dukungan teknis kapan pun Anda butuhkan</p>
                 </div>
               </div>
             </div>
-            <Link 
+            <Link
               to="hubungi-kami"
               spy={true}
               smooth={true}

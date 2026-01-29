@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
 import CTASection from './components/CTASection';
 import ExportImportLanding from './components/ExportImport';
+import StructuredData from './components/StructuredData';
 
 
 
@@ -15,6 +16,7 @@ import ExportImportLanding from './components/ExportImport';
 function App() {
   return (
     <div className="font-montserrat">
+      <StructuredData />
       <Navbar />
       <main>
         <Hero />
@@ -28,9 +30,9 @@ function App() {
       </main>
       <Footer />
       <div className='fixed md:bottom-20 md:right-20 bottom-4 right-4 z-50'>
-        <a 
-          href="https://wa.me/+6285156668815" 
-          target="_blank" 
+        <a
+          href="https://wa.me/+6285156668815"
+          target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition"
         >

@@ -1,11 +1,11 @@
 
-import { 
-  Globe, 
-  Truck, 
-  FileText, 
+import {
+  Globe,
+  Truck,
+  FileText,
   Shield,
-  TrendingUp, 
-  CheckCircle, 
+  TrendingUp,
+  CheckCircle,
   ArrowRight,
   Building2,
   Store,
@@ -14,40 +14,40 @@ import {
 
 const ExportImportSection = () => {
   const services = [
-    { icon: FileText, title: "Konsultasi & Dokumen", desc: "Panduan regulasi dan pengurusan dokumen lengkap" },
-    { icon: Truck, title: "Logistik & Freight", desc: "Pengiriman laut, udara, darat yang efisien" },
-    { icon: Shield, title: "Kepabeanan & Asuransi", desc: "Bea cukai dan perlindungan kargo" }
+    { icon: FileText, title: "Konsultasi & Dokumen", desc: "Konsultasi dokumen ekspor impor. Panduan regulasi dan pengurusan dokumen lengkap" },
+    { icon: Truck, title: "Logistik & Freight", desc: "Layanan logistik dan freight laut, udara, darat. Pengiriman laut, udara, darat yang efisien" },
+    { icon: Shield, title: "Kepabeanan & Asuransi", desc: "Layanan kepabeanan dan bea cukai. Bea cukai dan perlindungan kargo" }
   ];
 
   const advantages = [
-    { icon: TrendingUp, title: "Berpengalaman", desc: "Tim profesional yang memahami regulasi internasional" },
-    { icon: Globe, title: "Jaringan Luas", desc: "Mitra global untuk pengiriman ke seluruh dunia" },
-    { icon: CheckCircle, title: "Transparan", desc: "Komunikasi jelas di setiap tahapan proses" },
-    { icon: Shield, title: "Efisien", desc: "Optimalisasi biaya logistik dan bea cukai" }
+    { icon: TrendingUp, title: "Berpengalaman", desc: "Tim profesional yang memahami regulasi internasional. Jasa ekspor impor terpercaya" },
+    { icon: Globe, title: "Jaringan Luas", desc: "Mitra global untuk pengiriman ke seluruh dunia. Layanan export import Indonesia" },
+    { icon: CheckCircle, title: "Transparan", desc: "Komunikasi jelas di setiap tahapan proses. Layanan export import Indonesia" },
+    { icon: Shield, title: "Efisien", desc: "Optimalisasi biaya logistik dan bea cukai. Jasa kepabeanan dan bea cukai" }
   ];
 
   const targetClients = [
-    { icon: Building2, title: "Manufaktur" },
-    { icon: Store, title: "UKM Go Global" },
-    { icon: Truck, title: "Distributor" },
-    { icon: ShoppingCart, title: "E-commerce" }
+    { icon: Building2, title: "Manufaktur", desc: "Jasa ekspor impor untuk manufaktur" },
+    { icon: Store, title: "UKM Go Global", desc: "Jasa ekspor impor untuk UKM go global" },
+    { icon: Truck, title: "Distributor", desc: "Jasa ekspor impor untuk distributor" },
+    { icon: ShoppingCart, title: "E-commerce", desc: "Jasa ekspor impor untuk e-commerce" }
   ];
 
   return (
     <div className="py-16 bg-gradient-to-br from-blue-50 to-indigo-50" id="export-import">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center space-x-2 bg-blue-100 rounded-full px-4 py-2 mb-4">
             <Globe className="w-4 h-4 text-blue-600" />
             <span className="text-blue-800 text-sm font-medium">Jasa Ekspor Impor Terpercaya</span>
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Export Import
-          </h1>
+          </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Solusi komprehensif untuk kebutuhan ekspor dan impor Anda. 
+            Solusi komprehensif untuk kebutuhan ekspor dan impor Anda.
             Wujudkan potensi bisnis global dengan layanan terintegrasi end-to-end.
           </p>
         </div>
@@ -104,6 +104,7 @@ const ExportImportSection = () => {
                     <IconComponent className="w-4 h-4 text-blue-600" />
                   </div>
                   <h3 className="text-sm font-medium text-gray-900">{client.title}</h3>
+                  <p className="text-xs text-gray-600 mt-1">{client.desc}</p>
                 </div>
               );
             })}
@@ -116,7 +117,7 @@ const ExportImportSection = () => {
             Siap Mengembangkan Bisnis Global Anda?
           </h2>
           <p className="mb-6 opacity-90">
-            Jangan biarkan batas geografis membatasi potensi bisnis Anda. 
+            Jangan biarkan batas geografis membatasi potensi bisnis Anda.
             Hubungi kami untuk konsultasi gratis dan mulai ekspansi global.
           </p>
           <a href='https://wa.me/+6285156668815' className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors inline-flex items-center space-x-2">

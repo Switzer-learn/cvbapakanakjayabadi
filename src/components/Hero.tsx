@@ -5,22 +5,22 @@ const Hero = () => {
     <section id="beranda" className="relative h-screen flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <div 
+        <div
           className="h-full w-full bg-cover bg-center"
-          style={{ 
+          style={{
             backgroundImage: `url(/assets/images/hero.webp)`,
-            filter: "brightness(0.6)" 
+            filter: "brightness(0.6)"
           }}
         />
       </div>
-      
+
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-            Solusi Alat Berat Terpercaya di Indonesia
+            Sewa Forklift Sidoarjo & Rental Alat Berat Surabaya
           </h1>
           <p className="text-xl text-gray-200 mb-8">
-            Kami menyediakan layanan penyewaan dan penjualan forklift dan alat berat berkualitas dengan harga terbaik untuk kebutuhan industri dan konstruksi Anda.
+            Penyewaan dan Penjualan Alat Berat Terlengkap. Spesialis Alat Berat Terpercaya untuk Sewa Forklift Sidoarjo, Rental Alat Berat Surabaya, dan Solusi Alat Berat untuk Industri dan Konstruksi.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

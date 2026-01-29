@@ -4,7 +4,7 @@ const CTASection = () => {
   return (
     <section className="py-16 bg-blue-700 relative">
       <div className="absolute inset-0 z-0">
-        <div 
+        <div
           className="h-full w-full bg-cover bg-center opacity-20"
           style={{ backgroundImage: "url('/images/cta-bg.jpg')" }}
         />
@@ -26,7 +26,7 @@ const CTASection = () => {
             >
               Hubungi Kami
             </Link>
-            <a 
+            <a
               href="tel:+6285156668815"
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-700 font-bold py-3 px-8 rounded-lg text-center transition"
             >
@@ -34,7 +34,7 @@ const CTASection = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                  +62 851 5666 8815
+                +62 812-3558-9351
               </span>
             </a>
           </div>

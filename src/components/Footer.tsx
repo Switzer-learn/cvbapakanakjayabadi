@@ -24,14 +24,9 @@ const Footer = () => {
                 <svg className="h-6 w-6 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                 </svg>
-                <a href="tel:+6285156668815" className="text-gray-400 hover:text-white transition-colors">+62 851 5666 8815</a>
+                <a href="tel:+6281235589351" className="text-gray-400 hover:text-white transition-colors">+62 812-3558-9351</a>
               </div>
-              <div className="flex items-center">
-                <svg className="h-6 w-6 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
-                </svg>
-                <a href="tel:+62895351011860" className="text-gray-400 hover:text-white transition-colors">+62 8953 5101 1860</a>
-              </div>
+
               <div className="flex items-center">
                 <svg className="h-6 w-6 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
@@ -47,87 +42,74 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
-          
+
+
           <div className="md:col-span-2 lg:col-span-3 w-full">
             <h3 className="text-lg font-bold mb-6">Hubungi Kami</h3>
             <div className='grid md:grid-cols-3'>
-            <div className="space-y-4">
-              <div className="flex items-start">
-                <svg className="h-6 w-6 text-gray-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                </svg>
-                <p className="text-gray-400">
-                  Office Jakarta <br />
-                  Pusat Niaga Cibodas no 12 - 14<br />
-                  Cibodas, Tangerang<br />
-                  Indonesia
-                </p>
+              <div className="space-y-4">
+                <div className="flex items-start">
+                  <svg className="h-6 w-6 text-gray-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                  <p className="text-gray-400">
+                    Office Jakarta <br />
+                    Pusat Niaga Cibodas no 12 - 14<br />
+                    Cibodas, Tangerang<br />
+                    Indonesia. Rental alat berat Tangerang dan Jakarta tersedia.
+                  </p>
+                </div>
+
               </div>
-              
-            </div>
-            <div className="space-y-4">
-              <div className="flex items-start">
-                <svg className="h-6 w-6 text-gray-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                </svg>
-                <p className="text-gray-400">
-                  Office Surabaya <br />
-                  Wisma Tropodo jln Lawu CE no 2<br />
-                  Waru, Sidoarjo<br />
-                  Indonesia
-                </p>
+              <div className="space-y-4">
+                <div className="flex items-start">
+                  <svg className="h-6 w-6 text-gray-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                  <p className="text-gray-400">
+                    Office Surabaya <br />
+                    Wisma Tropodo jln Lawu CE no 2<br />
+                    Waru, Sidoarjo<br />
+                    Indonesia. Sewa forklift Sidoarjo dan Surabaya tersedia.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="space-y-4">
-              <div className="flex items-start">
-                <svg className="h-6 w-6 text-gray-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                </svg>
-                <p className="text-gray-400">
-                  Office Banyuwangi <br />
-                  Jln Kertanegara no 2<br />
-                  Perum Pelindung Alam no 2, Banyuwangi<br />
-                  Indonesia
-                </p>
+              <div className="space-y-4">
+                <div className="flex items-start">
+                  <svg className="h-6 w-6 text-gray-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                  <p className="text-gray-400">
+                    Office Banyuwangi <br />
+                    Jln Kertanegara no 2<br />
+                    Perum Pelindung Alam no 2, Banyuwangi<br />
+                    Indonesia. Sewa alat berat Banyuwangi tersedia.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="space-y-4">
-              <div className="flex items-start">
-                <svg className="h-6 w-6 text-gray-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                </svg>
-                <p className="text-gray-400">
-                  Office Bali <br />
-                  Jln Pulau Batanta Perum Sebelanga Indah no 22<br />
-                  Denpasar, Bali<br />
-                  Indonesia
-                </p>
-              </div>
-            </div>
-            <div className="space-y-4">
-              <div className="flex items-start">
-                <svg className="h-6 w-6 text-gray-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                </svg>
-                <p className="text-gray-400">
-                  Workshop <br />
-                  Raya Jember km 7, Kedayuanan<br />
-                  Kabat, Banyuwangi<br />
-                  Indonesia
-                </p>
+
+              <div className="space-y-4">
+                <div className="flex items-start">
+                  <svg className="h-6 w-6 text-gray-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                  <p className="text-gray-400">
+                    Workshop <br />
+                    Raya Jember km 7, Kedayuanan<br />
+                    Kabat, Banyuwangi<br />
+                    Indonesia. Rental alat berat Jawa Timur tersedia.
+                  </p>
+                </div>
               </div>
             </div>
-            </div>
-            
+
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
@@ -144,7 +126,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-    
+
   );
 };
 

@@ -2,38 +2,38 @@ const services = [
   {
     id: 1,
     icon: 'support',
-    title: 'Dukungan Teknis 24/7',
-    description: 'Tim teknisi siap membantu Anda kapan pun diperlukan untuk memastikan operasi berjalan lancar.'
+    title: 'Dukungan Teknis Alat Berat 24/7',
+    description: 'Dukungan teknis alat berat 24 jam. Tim teknisi berpengalaman siap membantu Anda kapan pun diperlukan untuk memastikan operasi berjalan lancar.'
   },
   {
     id: 2,
     icon: 'maintenance',
-    title: 'Pemeliharaan Rutin',
-    description: 'Layanan pemeliharaan preventif berkala untuk menjaga performa optimal alat berat.'
+    title: 'Pemeliharaan Rutin Alat Berat',
+    description: 'Penyewaan alat berat dengan pemeliharaan rutin. Layanan pemeliharaan preventif berkala untuk menjaga performa optimal alat berat.'
   },
   {
     id: 3,
     icon: 'repair',
-    title: 'Perbaikan di Tempat',
-    description: 'Layanan perbaikan langsung di lokasi kerja untuk meminimalkan downtime.'
+    title: 'Perbaikan Alat Berat di Lokasi Proyek',
+    description: 'Layanan perbaikan alat berat di lokasi proyek. Layanan perbaikan langsung di lokasi kerja untuk meminimalkan downtime.'
   },
   {
     id: 4,
     icon: 'training',
-    title: 'Pelatihan Operator',
-    description: 'Pelatihan profesional untuk operator Anda agar dapat mengoperasikan alat dengan aman dan efisien.'
+    title: 'Pelatihan Operator Forklift dan Alat Berat',
+    description: 'Pelatihan profesional untuk operator Anda agar dapat mengoperasikan alat dengan aman dan efisien. Pelatihan operator forklift dan alat berat tersedia.'
   },
   {
     id: 5,
     icon: 'delivery',
-    title: 'Pengantaran & Pengambilan',
-    description: 'Layanan pengantaran dan pengambilan alat berat ke dan dari lokasi proyek Anda.'
+    title: 'Pengantaran dan Pengambilan Alat Berat',
+    description: 'Pengantaran dan pengambilan alat berat ke lokasi proyek. Layanan pengantaran dan pengambilan alat berat ke dan dari lokasi proyek Anda.'
   },
   {
     id: 6,
     icon: 'consultation',
-    title: 'Konsultasi Proyek',
-    description: 'Bantuan profesional dalam memilih alat berat yang tepat untuk kebutuhan proyek Anda.'
+    title: 'Konsultasi Proyek Alat Berat',
+    description: 'Bantuan profesional dalam memilih alat berat yang tepat untuk kebutuhan proyek Anda. Konsultasi proyek untuk memilih alat berat yang sesuai.'
   }
 ];
 
@@ -55,8 +55,8 @@ const Services = () => {
         );
       case 'repair':
         return (<svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-          </svg>
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+        </svg>
         );
       case 'training':
         return (
@@ -89,10 +89,10 @@ const Services = () => {
     <section id="pelayanan" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Pelayanan Kami</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">Layanan Sewa Alat Berat dengan Teknisi Berpengalaman</h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Kami menawarkan rangkaian layanan komprehensif untuk memastikan alat berat Anda beroperasi pada performa optimal dengan waktu henti minimal.
+            Penyewaan alat berat dengan pemeliharaan rutin, layanan perbaikan alat berat di lokasi proyek, pelatihan operator forklift dan alat berat, dukungan teknis alat berat 24 jam, dan pengantaran dan pengambilan alat berat ke lokasi proyek.
           </p>
         </div>
 

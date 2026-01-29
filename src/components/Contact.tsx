@@ -20,7 +20,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-  
+
     // Send email via EmailJS
     emailjs
       .send(
@@ -52,10 +52,10 @@ const ContactForm = () => {
     <section id="hubungi-kami" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Hubungi Kami</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">Sewa Forklift Waru Sidoarjo & Rental Alat Berat Surabaya</h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Ada pertanyaan atau ingin mendapatkan penawaran? Hubungi kami sekarang dan tim kami siap membantu Anda.
+            Ada pertanyaan atau ingin mendapatkan penawaran? Hubungi kami sekarang dan tim kami siap membantu Anda. Sewa forklift Sidoarjo dan Surabaya, rental alat berat Tangerang dan Jakarta, sewa alat berat Banyuwangi tersedia.
           </p>
         </div>
 
@@ -111,7 +111,7 @@ const ContactForm = () => {
                   />
                 </div>
               </div>
-              
+
               <div className="mb-6">
                 <label className="block text-gray-700 font-medium mb-2">Saya Tertarik Dengan</label>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -153,7 +153,7 @@ const ContactForm = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="mb-6">
                 <label htmlFor="message" className="block text-gray-700 font-medium mb-2">Pesan</label>
                 <textarea
@@ -166,7 +166,7 @@ const ContactForm = () => {
                   required
                 ></textarea>
               </div>
-              
+
               <button
                 type="submit"
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition"
@@ -175,7 +175,7 @@ const ContactForm = () => {
               </button>
             </form>
           </div>
-          
+
           <div className="lg:w-1/2">
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Informasi Kontak</h3>
@@ -192,7 +192,7 @@ const ContactForm = () => {
                     <p className="text-gray-600">Wisma Tropodo, Jln Lawu CE No 2, Waru, Sidoarjo</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -201,11 +201,10 @@ const ContactForm = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-semibold text-gray-800">Telepon</h4>
-                    <p className="text-gray-600">+62 851 5666 8815 (Whatsapp)</p>
-                    <p className="text-gray-600">+62 895 3510 11860 (WhatsApp)</p>
+                    <p className="text-gray-600">+62 812 3558 9351 (Whatsapp)</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -217,7 +216,7 @@ const ContactForm = () => {
                     <p className="text-gray-600">cvbapakanakjayaabadi@gmail.com</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -232,10 +231,10 @@ const ContactForm = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="rounded-lg overflow-hidden shadow-lg h-64">
               {/* Here we would normally include a Google Map, but as a placeholder we're using an image */}
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d494.62483940329844!2d112.75914054461946!3d-7.3540384948389805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1741178842935!5m2!1sen!2sid" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d494.62483940329844!2d112.75914054461946!3d-7.3540384948389805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1741178842935!5m2!1sen!2sid" width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
           </div>
